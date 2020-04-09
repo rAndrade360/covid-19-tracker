@@ -26,12 +26,13 @@ body, #root{
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-items: center;
 }
 .App h1{
     color: #222;
     text-transform: uppercase;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 
@@ -40,4 +41,10 @@ body, #root{
     flex-direction: row;
     margin-top: 15px ;
     width: 100%;
+}
+
+@media only screen and (max-width: 650px){
+    .cards{
+        flex-direction: column;
+    }
 }

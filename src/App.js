@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App center">
+    <div className="App">
       <h1>Covid-19</h1>
       <div className="cards center">
         <Card
