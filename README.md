@@ -7,7 +7,7 @@ Esse app foi criado para que o usuário possa monitorar o avanço da **Covid-19*
 
 No diretório do projeto, você pode executar:
 
-### `yarn start`
+`yarn start`
 
 Execute esse app no modo _desenvolvedor_.<br />
 Abra [http://localhost:3000](http://localhost:3000) para ver no browser.
